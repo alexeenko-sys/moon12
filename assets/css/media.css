@@ -1,0 +1,279 @@
+@media (min-width: 1500px) {
+    .choice_container {
+        max-width: 1680px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1000px) {
+    .reserve {
+        display: none;
+    }
+    .reserve_adaptive {
+        display: block;
+    }
+    .reserve__wrapper {
+        align-items: flex-start;
+    }
+    .reserve_adaptive__title {
+        font-size: 36px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 22px;
+    }
+    .reserve-booking__blocks {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .advantages__wrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .advantages-item__wrapper {
+        justify-content: flex-start;
+    }
+    .advantages-item__img {
+        margin-right: 40px;
+    }
+    .advantages-item__inform {
+        max-width: 700px;
+        width: 100%;
+    }
+    .advantages__banner {
+        padding: 0 78px;
+    }
+    .quotes__wrapper {
+        flex-wrap: wrap;
+    }
+    .quotes-item {
+        width: 100%;
+    }
+    .quotes-item {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer__logo {
+        margin-right: 65px;
+    }
+    .footer-menu__list-item {
+        margin-right: 50px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .footer_container {
+        padding: 0 15px;
+    }
+}
+@media (max-width: 768px) {
+    .header__logo {
+        margin-bottom: 90px;
+    }
+    .header__subtitle {
+        max-width: 310px;
+    }
+    .choice {
+        display: none;
+    }
+    .choice_adaptive {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .choice__wrapper_adaptive {
+        display: flex;
+    }
+    .choice-item_3 {
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    .reserve {
+        padding-bottom: 63px;
+    }
+    .reserve__wrapper_adaptive {
+        flex-wrap: wrap;
+    }
+    .reserve-inform {
+        max-width: 424px;
+        width: 100%;
+        margin-bottom: 22px;
+    }
+    .reserve__wrapper {
+        padding: 0 80px;
+    }
+    .reserve_adaptive__title {
+        padding: 0 80px;
+    }
+    .reserve-booking {
+        max-width: 590px;
+        width: 100%;
+    }
+    .advantages__wrapper {
+        margin-bottom: 60px;
+    }
+    .footer-menu__list-link {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .footer-menu__list-item {
+        margin-right: 30px;
+    }
+    .footer__logo {
+        margin-right: -30px;
+        padding-left: 33px;
+    }
+}
+@media (max-width: 480px) {
+    .header__title {
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 10px;
+    }
+    .header__subtitle {
+        margin-top: 0;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .choice__wrapper_adaptive {
+        flex-wrap: wrap;
+    }
+    .choice-item {
+        margin-bottom: 10px;
+        height: 213px;
+    }
+    .choice-item__title {
+        height: 213px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .choice-item_3 {
+        margin-bottom: 10px;
+    }
+    .reserve {
+        padding: 50px 0 26px;
+    }
+    .reserve_adaptive__title {
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+    .reserve-inform__subtitle {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 16px;
+    }
+    .reserve-booking__button-inner {
+        margin-bottom: 40px;
+    }
+    .reserve-booking {
+        max-width: 461px;
+        width: 100%;
+    }
+    .reserve__wrapper {
+        padding: 0;
+    }
+    .advantages-item__wrapper {
+        flex-wrap: wrap;
+    }
+    .advantages-item__img {
+        margin-bottom: 15px;
+    }
+    .advantages-item__inform {
+        width: 100%;
+    }
+    .advantages__banner {
+        padding: 0 32px;
+    }
+    .advantages__banner-wrapper {
+        flex-wrap: wrap;
+    }
+    .advantages__banner-title {
+        width: 100%;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .advantages__banner-button {
+        padding: 10px 32px;
+    }
+    .advantages {
+        padding-bottom: 82px;
+    }
+    .quotes-item__img {
+        margin-bottom: 0;
+    }
+    .quotes-item__descr {
+        margin-top: 0;
+    }
+    .footer {
+        display: none;
+    }
+    .footer_adaptive {
+        display: block;
+    }
+    .footer__logo {
+        margin-right: 66px;
+    }
+    .footer-menu__wrapper {
+        display: flex;
+    }
+    .footer-menu__button {
+        padding: 0;
+        border: none;
+    }
+}
+@media (max-width: 320px) {
+    .header__logo {
+        margin-bottom: 60px;
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .header__subtitle {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .reserve-booking {
+        width: 302px;
+        padding: 30px 8px 35px;
+    }
+    .reserve-booking__blocks {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+    }
+    .reserve-booking__block {
+        padding: 11px 24px;
+    }
+    .reserve-booking__button_inner {
+        text-align: center;
+    }
+    .advantages {
+        padding-top: 60px;
+    }
+    .advantages__banner {
+        border-radius: 5px;
+    }
+    .advantages__banner {
+        padding: 0 0 42px 28px;
+    }
+    .quotes-item__descr {
+        font-size: 16px;
+        line-height: 19px
+    }
+    .footer_adaptive {
+        display: none;
+    }
+    .footer_adaptive-320 {
+        display: block;
+    }
+    .footer_container {
+        padding-top: 20px;
+    }
+    .footer__logo {
+        width: 150px;
+        margin-bottom: 15px;
+        margin-right: 20px;
+    }
+    .footer__wrapper {
+        align-items: flex-start;
+    }
+}
